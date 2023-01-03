@@ -48,12 +48,35 @@ console.log(car1.finalPrice);
 console.log(car2.finalPrice);
 
 //! Iteración 3
-//? Iteración 3.1
-//? Iteración 3.2
-//? Iteración 3.3
-//? Iteración 3.4
-//? Iteración 3.5
 
+//? Iteración 3.1 Multiplica 10 por 5 y muestra el resultado mediante console.log().
+
+    let mult = 10 * 5;
+    console.log(mult)
+
+//? Iteración 3.2 Divide 10 por 2 y muestra el resultado en un console.log().
+
+    let div = 10 / 2;
+    console.log(div);
+
+//? Iteración 3.3 Muestra mediante un console.log() el resto de dividir 15 por 9.
+
+    console.log(15 % 9);
+
+//? Iteración 3.4 Usa el correcto operador de asignación que resultará en a = 15, 
+//? teniendo dos variables b = 10 y c = 5.
+
+let b = 10;
+let c =5;
+let a = b + c;
+console.log ("a es igual a " + a);
+
+
+//? Iteración 3.5 Usa el correcto operador de asignación que resultará en d = 50,
+//? teniendo dos variables b = 10 y c = 5.
+
+    let d = b * c;
+    console.log("d es igual a " + d);
 //! Iteración 4
 //? Iteración 4.1
 //? Iteración 4.2
