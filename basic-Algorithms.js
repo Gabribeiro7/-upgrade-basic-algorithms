@@ -111,7 +111,40 @@ console.log ("a es igual a " + a);
 
     
 
-//! Iteración 5
+//! Iteración 5 : En base al código siguiente, muestra los mensajes correctos por consola.
+const number1 = 10;
+const number2 = 20;
+const number3 = 2;
+
+// ejemplo
+if(number1 === 10){
+    console.log(number1 );
+}
+let divi;
+if ( divi = number2 / number1 == 2) {
+  console.log(divi);
+}
+let distinct1;
+if ( distinct1 = number1 !== number2) {
+  console.log(distinct1);
+}
+let distinct2;
+if (distinct2 = number3 != number1) {
+  console.log(distinct2);
+}
+let equalMulti1;
+if (equalMulti1 = number3 * 5 == number1) {
+  console.log(equalMulti1);
+}
+let equalMult2;
+if ( equalMult2 = equalMulti1 && number1 * 2 === number2) {
+  console.log(equalMult2);
+}
+let equalDivi;
+if ( equalDivi = number2 / 2 === number1 || number1 / 5 === number3) {
+  console.log(equalDivi);
+}
+
 
 //! Iteración 6
 //? Iteración 6.1
