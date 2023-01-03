@@ -112,41 +112,71 @@ console.log ("a es igual a " + a);
     
 
 //! Iteración 5 : En base al código siguiente, muestra los mensajes correctos por consola.
-const number1 = 10;
-const number2 = 20;
-const number3 = 2;
+    const number1 = 10;
+    const number2 = 20;
+    const number3 = 2;
 
-// ejemplo
-if(number1 === 10){
-    console.log(number1 );
-}
-let divi;
-if ( divi = number2 / number1 == 2) {
-  console.log(divi);
-}
-let distinct1;
-if ( distinct1 = number1 !== number2) {
-  console.log(distinct1);
-}
-let distinct2;
-if (distinct2 = number3 != number1) {
-  console.log(distinct2);
-}
-let equalMulti1;
-if (equalMulti1 = number3 * 5 == number1) {
-  console.log(equalMulti1);
-}
-let equalMult2;
-if ( equalMult2 = equalMulti1 && number1 * 2 === number2) {
-  console.log(equalMult2);
-}
-let equalDivi;
-if ( equalDivi = number2 / 2 === number1 || number1 / 5 === number3) {
-  console.log(equalDivi);
-}
+    // ejemplo
+    if(number1 === 10){
+        console.log(number1 );
+    }
+    let divi;
+    if ( divi = number2 / number1 == 2) {
+    console.log(divi);
+    }
+    let distinct1;
+    if ( distinct1 = number1 !== number2) {
+    console.log(distinct1);
+    }
+    let distinct2;
+    if (distinct2 = number3 != number1) {
+    console.log(distinct2);
+    }
+    let equalMulti1;
+    if (equalMulti1 = number3 * 5 == number1) {
+    console.log(equalMulti1);
+    }
+    let equalMult2;
+    if ( equalMult2 = equalMulti1 && number1 * 2 === number2) {
+    console.log(equalMult2);
+    }
+    let equalDivi;
+    if ( equalDivi = number2 / 2 === number1 || number1 / 5 === number3) {
+    console.log(equalDivi);
+    }
 
 
 //! Iteración 6
-//? Iteración 6.1
-//? Iteración 6.2
-//? Iteración 6.3
+
+//? Iteración 6.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
+    for (let i = 0; i <= 9; i++) {
+    console.log(i)
+    
+}
+//? Iteración 6.2  Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo 
+//? cuando el resto del numero dividido entre 2 sea 0.
+
+    for (let j = 0; j <= 9; j++) {
+        
+        if ( j % 2 === 0) {
+
+            console.log(j);
+        }
+        
+    }
+
+//? Iteración 6.3 Crea un bucle para conseguir dormir contando ovejas. 
+//? Este bucle empieza en 0 y termina en 10. 
+//? Muestra por consola un mensaje diciendo 'Intentando dormir' en cada vuelta del bucle 
+//? y cambia el mensaje en la última vuelta a 'Dormido!'.
+
+    for (let k = 0; k <=10; k++) {
+        if (k < 10) {
+            console.log( k + " Intentando dormir");
+        }
+
+        else  {
+            console.log( k + " Dormido!")
+        }
+        
+    }
